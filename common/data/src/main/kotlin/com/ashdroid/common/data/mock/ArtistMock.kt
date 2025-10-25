@@ -2,7 +2,7 @@ package com.ashdroid.common.data.mock
 
 import com.ashdroid.common.data.model.Artist
 
-internal val artist1 = Artist(
+val artist1 = Artist(
     id = 101,
     stageName = "Acoustic Voyager",
     profilePictureUrl = "https://example.com/artist/voyager_pfp.jpg",

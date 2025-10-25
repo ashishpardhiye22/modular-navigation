@@ -2,7 +2,7 @@ package com.ashdroid.common.data.mock
 
 import com.ashdroid.common.data.model.SongListItem
 
-internal val mockSongListItems = listOf(
+val mockSongListItems = listOf(
     SongListItem(
         id = 1,
         title = "Sunrise Serenade",

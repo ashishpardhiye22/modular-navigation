@@ -6,11 +6,9 @@ import kotlin.reflect.KClass
 
 abstract class FeatureRouteProvider {
     abstract val isEnabled: Boolean
+    abstract val route: KClass<*>
     abstract fun register(
         navGraphBuilder: NavGraphBuilder,
         navigateTo: (route: Route) -> Unit,
     )
-
-    abstract fun route(): KClass<*>
-
 }

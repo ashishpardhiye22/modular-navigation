@@ -2,7 +2,7 @@ package com.ashdroid.common.data.mock
 
 import com.ashdroid.common.data.model.Album
 
-internal val albumA = Album(
+val albumA = Album(
     id = 201,
     name = "Quiet Shores",
     coverArtUrl = "https://example.com/album/quiet_shores_full.jpg"
