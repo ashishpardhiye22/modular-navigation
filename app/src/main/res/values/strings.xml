@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AshdroidNavigation</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_demo">Navigation Demo</string>
+</resources>
