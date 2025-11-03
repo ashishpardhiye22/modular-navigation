@@ -2,6 +2,12 @@ package com.ashdroid.common.navigation.destinations
 
 import kotlinx.serialization.Serializable
 
+/**
+ * Represents all the screens/routes in the application.
+ * Each screen has a unique name and optionally arguments.
+ *
+ * Using sealed classes ensures **type-safe navigation**.
+ */
 @Serializable
 sealed interface Route {
 

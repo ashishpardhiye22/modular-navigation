@@ -66,6 +66,12 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/**
+* Sets up the top-level navigation graph of the app.
+* Integrates all feature module graphs into the main NavHost.
+*
+* @param navController [NavHostController] used for navigating between screens
+*/
 @Composable
 private fun MyNavHost(
     modifier: Modifier,
